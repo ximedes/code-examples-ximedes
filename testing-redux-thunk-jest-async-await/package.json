@@ -1,0 +1,29 @@
+{
+  "name": "testing-redux-thunk-jest",
+  "version": "1.0.0",
+  "description": "Testing Redux Thunk with Jest and async/await",
+  "main": "",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "hielke.de.vries@ximedes.com",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-jest": "^16.0.0",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-latest": "^6.16.0",
+    "jest": "^16.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.15.2"
+  },
+  "babel": {
+    "presets": [
+      "babel-preset-latest"
+    ]
+  },
+  "jest": {
+    "verbose": true
+  }
+}
